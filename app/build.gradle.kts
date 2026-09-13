@@ -87,7 +87,7 @@ android {
 
     defaultConfig {
         minSdk = Versions.minSdk
-        targetSdk = Versions.targetSdk
+        targetSdk = 34
 
         buildConfigField("String", "VERSION", "\"$version\"")
         buildConfigField("String", "BUILDVERSION", "\"${generateGitBuild()}-${generateDate()}\"")
